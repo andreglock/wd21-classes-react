@@ -5,106 +5,106 @@
 Networking = communication with a shared set of protocols.
 Protocol = an agreement on how to do a very specific thing.
 
-Internet Protocol
-    70s
-    mail, file exchange, message boards
-    Two kinds communication
-        TCP Connected       - like a telephone - used for example in games and some chat
-        UDP Connectionless  - like the post office - far more commons
+- Internet Protocol
+    - 70s
+    - mail, file exchange, message boards
+    - Two kinds communication
+        - TCP Connected       - like a telephone - used for example in games and some chat
+        - UDP Connectionless  - like the post office - far more commons
 
-All computers on a network have an address
-    IPv4 - IP adddresses
-        Can sometimes change, so they are dynamic
-        You can buy static IP addresses, most servers have a static address that doesn't change
-        Can be shared among many computers too
-        192.168.1.1 <-- example
-        0.0.0.0 - 255.255.255.255
-        Public (used on the internet) and Private (used in local networks) addresses
-        VPNs will hide or change your address
-        You can run multiple websites in one IP address, on the same server
-        We are slowly running out of addresses
-        ~3400 million addresses
-        127.0.0.1 <- your local machine
+- All computers on a network have an address
+    - IPv4 - IP adddresses
+        - Can sometimes change, so they are dynamic
+        - You can buy static IP addresses, most servers have a static address that doesn't change
+        - Can be shared among many computers too
+        - 192.168.1.1 <-- example
+        - 0.0.0.0 - 255.255.255.255
+        - Public (used on the internet) and Private (used in local networks) addresses
+        - VPNs will hide or change your address
+        - You can run multiple websites in one IP address, on the same server
+        - We are slowly running out of addresses
+        - ~3400 million addresses
+        - 127.0.0.1 <- your local machine
 
-    IPv6 - new shiny awesome unique addresses
-        2001:db8::8a2e:370:1123
+    - IPv6 - new shiny awesome unique addresses
+        - 2001:db8::8a2e:370:1123
 
-DNS - Domain name system
-    Each IP address can have a human readable domain name
-    google.de is a domain address
-    one website can have multiple IP addresses, but usually just one domain    
-    The point of domains is to make Addresses easy to recognize and remember
-    You can register domains for yourself
-    Domain names are a big business
-    Usually you pay per domain per year
-    Domain name servers are run by multiple organisations over the globe
-    When registering a domain, it takes a little bit of time for your new domain to be available
-    When changing a domain, it takes time to change too
-    www.google.de --> 19.22.55.12
-    You can check who owns a domain, or at least get some info on it
-    https://who.is/
+- DNS - Domain name system
+    - Each IP address can have a human readable domain name
+    - google.de is a domain address
+    - one website can have multiple IP addresses, but usually just one domain    
+    - The point of domains is to make Addresses easy to recognize and remember
+    - You can register domains for yourself
+    - Domain names are a big business
+    - Usually you pay per domain per year
+    - Domain name servers are run by multiple organisations over the globe
+    - When registering a domain, it takes a little bit of time for your new domain to be available
+    - When changing a domain, it takes time to change too
+    - www.google.de --> 19.22.55.12
+    - You can check who owns a domain, or at least get some info on it
+    - https://who.is/
 
-    TLD Top Level Domain
-        Examples
-            .de
-            .fi
-            .tv -- tuvalu
-            .com --- "commerce"
-            .info
-            .org --- "organization"
-            .gov --- "government"
-        You cannot register to every single TLD
-    Domains are Mostly alphanumeric
-        www.abcde1234689.com
-        It is unusual to see a domain like www.üüüüüÄÖöÄ.com
+    - TLD Top Level Domain
+        - Examples
+            - .de
+            - .fi
+            - .tv -- tuvalu
+            - .com --- "commerce"
+            - .info
+            - .org --- "organization"
+            - .gov --- "government"
+        - You cannot register to every single TLD
+    - Domains are Mostly alphanumeric
+        - www.abcde1234689.com
+        - It is unusual to see a domain like www.üüüüüÄÖöÄ.com
     
-    Domains have Subdomains
-        For example: www.google.de
-        "www" is a subdomain
-        website.amazon.de
-        ww2.services.internet.bank.de
-        mail.google.com
+    - Domains have Subdomains
+        - For example: www.google.de
+        - "www" is a subdomain
+        - website.amazon.de
+        - ww2.services.internet.bank.de
+        - mail.google.com
 
-    Hosts file
-        Historically, before DNS we just had a hosts file
-        120.5.1.1 jennyscomputer
-        154.1.1.1 bobs-message-board
-        In linux it#s at /etc
+    - Hosts file
+        - Historically, before DNS we just had a hosts file
+        - 120.5.1.1 jennyscomputer
+        - 154.1.1.1 bobs-message-board
+        - In linux it#s at /etc
 
-All data transferred is between server and client
+- All data transferred is between server and client
 
-URL
-    Universal Resource Locator
-    Web address
-    example.org             # simplest possible
-    www.example.org         # subdomain
-    http://www.example.org  # protocol part -- basic one; HyperText Transfer Protocol
-    https://example.org     # protocol; http with SSL encryption; when in production, always use
-    http://example.org:80   # the port -- http -- the browser hides this one
-    https://example.org:443 # the port for https -- the browser hides this one
-    http://localhost:3000   # port 3000 is usually for NodeJS
+- URL
+    - Universal Resource Locator
+    - Web address
+    - example.org             # simplest possible
+    - www.example.org         # subdomain
+    - http://www.example.org  # protocol part -- basic one; HyperText Transfer Protocol
+    - https://example.org     # protocol; http with SSL encryption; when in production, always use
+    - http://example.org:80   # the port -- http -- the browser hides this one
+    - https://example.org:443 # the port for https -- the browser hides this one
+    - http://localhost:3000   # port 3000 is usually for NodeJS
     
-    http://example.org/dogs         # "dogs" here is part of the path, some kind of resource
-    http://example.org/dogs.html    # if you have an extension, it could be a file, but might not
-    http://example.org/captcha.jpg  # could be a file, or could point to some logic
-    http://example.org/dogs/search  # "dogs/search" is part of the path, again some resource    
+    - http://example.org/dogs         # "dogs" here is part of the path, some kind of resource
+    - http://example.org/dogs.html    # if you have an extension, it could be a file, but might not
+    - http://example.org/captcha.jpg  # could be a file, or could point to some logic
+    - http://example.org/dogs/search  # "dogs/search" is part of the path, again some resource    
     
-    http://example.org/dogs/poodle?color=white&puppy=false&size=small
+    - http://example.org/dogs/poodle?color=white&puppy=false&size=small
                                    [--query parameters---]
-    Query parameters are separated first with a question mark `?` and after that, with an `&`
+    - Query parameters are separated first with a question mark `?` and after that, with an `&`
 
 
-    http://example.org/dogs/poodle?color=white#bottom   # the fragment part
+    - http://example.org/dogs/poodle?color=white#bottom   # the fragment part
                                                         # could be a part of the page
                                                         # could be some strange logic..
                                                         # always the last part
 
-    URLs are basically always unicode, meaning that symbols need to be Encoded.
+    - URLs are basically always unicode, meaning that symbols need to be Encoded.
 
-    URL encoding looks like this: "green apple" -----encoding---> "green%20apple"
+    - URL encoding looks like this: "green apple" -----encoding---> "green%20apple"
                                   "green%20apple" ---decoding---> "green apple"
 
-    Ports
+    - Ports
         80 - used for normal http web traffic
         443 - used for https web traffic
         22  - used for SSH connections

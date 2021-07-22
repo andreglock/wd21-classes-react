@@ -3,105 +3,162 @@ export default function BDL05() {
 <h2>Core internet skills and knowledge</h2>
 <p>Networking = communication with a shared set of protocols.
 Protocol = an agreement on how to do a very specific thing.</p>
-<p>Internet Protocol
-    70s
-    mail, file exchange, message boards
-    Two kinds communication
-        TCP Connected       - like a telephone - used for example in games and some chat
-        UDP Connectionless  - like the post office - far more commons</p>
-<p>All computers on a network have an address
-    IPv4 - IP adddresses
-        Can sometimes change, so they are dynamic
-        You can buy static IP addresses, most servers have a static address that doesn't change
-        Can be shared among many computers too
-        192.168.1.1 &lt;-- example
-        0.0.0.0 - 255.255.255.255
-        Public (used on the internet) and Private (used in local networks) addresses
-        VPNs will hide or change your address
-        You can run multiple websites in one IP address, on the same server
-        We are slowly running out of addresses
-        ~3400 million addresses
-        127.0.0.1 &lt;- your local machine</p>
-<pre><code>IPv6 - new shiny awesome unique addresses
-    2001:db8::8a2e:370:1123
-</code></pre>
-<p>DNS - Domain name system
-    Each IP address can have a human readable domain name
-    google.de is a domain address
-    one website can have multiple IP addresses, but usually just one domain  <br />
-    The point of domains is to make Addresses easy to recognize and remember
-    You can register domains for yourself
-    Domain names are a big business
-    Usually you pay per domain per year
-    Domain name servers are run by multiple organisations over the globe
-    When registering a domain, it takes a little bit of time for your new domain to be available
-    When changing a domain, it takes time to change too
-    www.google.de --&gt; 19.22.55.12
-    You can check who owns a domain, or at least get some info on it
-    https://who.is/</p>
-<pre><code>TLD Top Level Domain
-    Examples
-        .de
-        .fi
-        .tv -- tuvalu
-        .com --- "commerce"
-        .info
-        .org --- "organization"
-        .gov --- "government"
-    You cannot register to every single TLD
-Domains are Mostly alphanumeric
-    www.abcde1234689.com
-    It is unusual to see a domain like www.üüüüüÄÖöÄ.com
-
-Domains have Subdomains
-    For example: www.google.de
-    "www" is a subdomain
-    website.amazon.de
-    ww2.services.internet.bank.de
-    mail.google.com
-
-Hosts file
-    Historically, before DNS we just had a hosts file
-    120.5.1.1 jennyscomputer
-    154.1.1.1 bobs-message-board
-    In linux it#s at /etc
-</code></pre>
+<ul>
+<li>
+<p>Internet Protocol</p>
+<ul>
+<li>70s</li>
+<li>mail, file exchange, message boards</li>
+<li>Two kinds communication<ul>
+<li>TCP Connected       - like a telephone - used for example in games and some chat</li>
+<li>UDP Connectionless  - like the post office - far more commons</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>All computers on a network have an address</p>
+<ul>
+<li>
+<p>IPv4 - IP adddresses</p>
+<ul>
+<li>Can sometimes change, so they are dynamic</li>
+<li>You can buy static IP addresses, most servers have a static address that doesn't change</li>
+<li>Can be shared among many computers too</li>
+<li>192.168.1.1 &lt;-- example</li>
+<li>0.0.0.0 - 255.255.255.255</li>
+<li>Public (used on the internet) and Private (used in local networks) addresses</li>
+<li>VPNs will hide or change your address</li>
+<li>You can run multiple websites in one IP address, on the same server</li>
+<li>We are slowly running out of addresses</li>
+<li>~3400 million addresses</li>
+<li>127.0.0.1 &lt;- your local machine</li>
+</ul>
+</li>
+<li>
+<p>IPv6 - new shiny awesome unique addresses</p>
+<ul>
+<li>2001:db8::8a2e:370:1123</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>DNS - Domain name system</p>
+<ul>
+<li>Each IP address can have a human readable domain name</li>
+<li>google.de is a domain address</li>
+<li>one website can have multiple IP addresses, but usually just one domain    </li>
+<li>The point of domains is to make Addresses easy to recognize and remember</li>
+<li>You can register domains for yourself</li>
+<li>Domain names are a big business</li>
+<li>Usually you pay per domain per year</li>
+<li>Domain name servers are run by multiple organisations over the globe</li>
+<li>When registering a domain, it takes a little bit of time for your new domain to be available</li>
+<li>When changing a domain, it takes time to change too</li>
+<li>www.google.de --&gt; 19.22.55.12</li>
+<li>You can check who owns a domain, or at least get some info on it</li>
+<li>
+<p>https://who.is/</p>
+</li>
+<li>
+<p>TLD Top Level Domain</p>
+<ul>
+<li>Examples<ul>
+<li>.de</li>
+<li>.fi</li>
+<li>.tv -- tuvalu</li>
+<li>.com --- "commerce"</li>
+<li>.info</li>
+<li>.org --- "organization"</li>
+<li>.gov --- "government"</li>
+</ul>
+</li>
+<li>You cannot register to every single TLD</li>
+</ul>
+</li>
+<li>
+<p>Domains are Mostly alphanumeric</p>
+<ul>
+<li>www.abcde1234689.com</li>
+<li>It is unusual to see a domain like www.üüüüüÄÖöÄ.com</li>
+</ul>
+</li>
+<li>
+<p>Domains have Subdomains</p>
+<ul>
+<li>For example: www.google.de</li>
+<li>"www" is a subdomain</li>
+<li>website.amazon.de</li>
+<li>ww2.services.internet.bank.de</li>
+<li>mail.google.com</li>
+</ul>
+</li>
+<li>
+<p>Hosts file</p>
+<ul>
+<li>Historically, before DNS we just had a hosts file</li>
+<li>120.5.1.1 jennyscomputer</li>
+<li>154.1.1.1 bobs-message-board</li>
+<li>In linux it#s at /etc</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
 <p>All data transferred is between server and client</p>
-<p>URL
-    Universal Resource Locator
-    Web address
-    example.org             # simplest possible
-    www.example.org         # subdomain
-    http://www.example.org  # protocol part -- basic one; HyperText Transfer Protocol
-    https://example.org     # protocol; http with SSL encryption; when in production, always use
-    http://example.org:80   # the port -- http -- the browser hides this one
-    https://example.org:443 # the port for https -- the browser hides this one
-    http://localhost:3000   # port 3000 is usually for NodeJS</p>
-<pre><code>http://example.org/dogs         # "dogs" here is part of the path, some kind of resource
-http://example.org/dogs.html    # if you have an extension, it could be a file, but might not
-http://example.org/captcha.jpg  # could be a file, or could point to some logic
-http://example.org/dogs/search  # "dogs/search" is part of the path, again some resource
-
-http://example.org/dogs/poodle?color=white&amp;puppy=false&amp;size=small
-                               [--query parameters---]
-Query parameters are separated first with a question mark `?` and after that, with an `&amp;`
-
-
-http://example.org/dogs/poodle?color=white#bottom   # the fragment part
+</li>
+<li>
+<p>URL</p>
+<ul>
+<li>Universal Resource Locator</li>
+<li>Web address</li>
+<li>example.org             # simplest possible</li>
+<li>www.example.org         # subdomain</li>
+<li>http://www.example.org  # protocol part -- basic one; HyperText Transfer Protocol</li>
+<li>https://example.org     # protocol; http with SSL encryption; when in production, always use</li>
+<li>http://example.org:80   # the port -- http -- the browser hides this one</li>
+<li>https://example.org:443 # the port for https -- the browser hides this one</li>
+<li>
+<p>http://localhost:3000   # port 3000 is usually for NodeJS</p>
+</li>
+<li>
+<p>http://example.org/dogs         # "dogs" here is part of the path, some kind of resource</p>
+</li>
+<li>http://example.org/dogs.html    # if you have an extension, it could be a file, but might not</li>
+<li>http://example.org/captcha.jpg  # could be a file, or could point to some logic</li>
+<li>
+<p>http://example.org/dogs/search  # "dogs/search" is part of the path, again some resource    </p>
+</li>
+<li>
+<p>http://example.org/dogs/poodle?color=white&amp;puppy=false&amp;size=small
+                               [--query parameters---]</p>
+</li>
+<li>
+<p>Query parameters are separated first with a question mark <code>?</code> and after that, with an <code>&amp;</code></p>
+</li>
+<li>
+<p>http://example.org/dogs/poodle?color=white#bottom   # the fragment part
                                                     # could be a part of the page
                                                     # could be some strange logic..
-                                                    # always the last part
-
-URLs are basically always unicode, meaning that symbols need to be Encoded.
-
-URL encoding looks like this: "green apple" -----encoding---&gt; "green%20apple"
-                              "green%20apple" ---decoding---&gt; "green apple"
-
-Ports
+                                                    # always the last part</p>
+</li>
+<li>
+<p>URLs are basically always unicode, meaning that symbols need to be Encoded.</p>
+</li>
+<li>
+<p>URL encoding looks like this: "green apple" -----encoding---&gt; "green%20apple"
+                              "green%20apple" ---decoding---&gt; "green apple"</p>
+</li>
+<li>
+<p>Ports
     80 - used for normal http web traffic
     443 - used for https web traffic
-    22  - used for SSH connections
-</code></pre>
+    22  - used for SSH connections</p>
+</li>
+</ul>
+</li>
+</ul>
 <h2>A word on publishing</h2>
 <p>You have a website. How do you publish it?</p>
 <h3>FTP - File Transfer Protocol</h3>

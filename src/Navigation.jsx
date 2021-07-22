@@ -26,61 +26,87 @@ export default function Navigation() {
                 <a href="#uibSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">User Interface Basics</a>
                 <ul className="collapse list-unstyled" id="uibSubmenu">
                     <li><NavLink to="UIB10">UIB 1</NavLink></li>
-
-                    <li><a href="classes/10UIB.html">UIB 1</a></li>
-                    <li><a href="classes/11UIB.html">UIB 2</a></li>
-                    <li><a href="classes/12UIB.html">UIB 3</a></li>
-                    <li><a href="classes/13UIB.html">UIB 4</a></li>
-                    <li><a href="classes/14UIB.html">UIB 5</a></li>
-                    <li><a href="classes/15UIB.html">UIB 6</a></li>
-                    <li><a href="classes/16UIB.html">UIB 7</a></li>
-                    <li><a href="classes/17UIB.html">UIB 8</a></li>
-                    <li><a href="classes/18UIB.html">UIB 9</a></li>
-                    <li><a href="classes/19UIB.html">UIB 10</a></li>
-                    <li><a href="classes/20UIB.html">UIB 11</a></li>
-                    <li><a href="classes/21UIB.html">UIB 12</a></li>
-                    <li><a href="classes/22UIB.html">UIB 13</a></li>
-                    <li><a href="classes/23UIB.html">UIB 14</a></li>
-                    <li><a href="classes/24UIB.html">UIB 15</a></li>
-                    <li><a href="classes/25UIB.html">UIB 16</a></li>
-                    <li><a href="classes/26UIB.html">UIB 17</a></li>
-                    <li><a href="classes/27UIB.html">UIB 18</a></li>
-                    <li><a href="classes/28UIB.html">UIB 19</a></li>
-                    <li><a href="classes/29UIB.html">UIB 20</a></li>
-                    <li><a href="classes/30UIB.html">UIB 21</a></li>
-                    <li><a href="classes/31UIB.html">UIB 22</a></li>
-                    <li><a href="classes/32UIB.html">UIB 23</a></li>
-                    <li><a href="classes/33UIB.html">UIB 24</a></li>
-                    <li><a href="classes/34UIB.html">UIB 25</a></li>
-                    <li><a href="classes/35UIB.html">UIB 26</a></li>
+                    <li><NavLink to="UIB11">UIB 2</NavLink></li>
+                    <li><NavLink to="UIB12">UIB 3</NavLink></li>
+                    <li><NavLink to="UIB13">UIB 4</NavLink></li>
+                    <li><NavLink to="UIB14">UIB 5</NavLink></li>
+                    <li><NavLink to="UIB15">UIB 6</NavLink></li>
+                    <li><NavLink to="UIB16">UIB 7</NavLink></li>
+                    <li><NavLink to="UIB17">UIB 8</NavLink></li>
+                    <li><NavLink to="UIB18">UIB 9</NavLink></li>
+                    <li><NavLink to="UIB19">UIB 10</NavLink></li>
+                    <li><NavLink to="UIB20">UIB 11</NavLink></li>
+                    <li><NavLink to="UIB21">UIB 12</NavLink></li>
+                    <li><NavLink to="UIB22">UIB 13</NavLink></li>
+                    <li><NavLink to="UIB23">UIB 14</NavLink></li>
+                    <li><NavLink to="UIB24">UIB 15</NavLink></li>
+                    <li><NavLink to="UIB25">UIB 16</NavLink></li>
+                    <li><NavLink to="UIB26">UIB 17</NavLink></li>
+                    <li><NavLink to="UIB27">UIB 18</NavLink></li>
+                    <li><NavLink to="UIB28">UIB 19</NavLink></li>
+                    <li><NavLink to="UIB29">UIB 20</NavLink></li>
+                    <li><NavLink to="UIB30">UIB 21</NavLink></li>
+                    <li><NavLink to="UIB31">UIB 22</NavLink></li>
+                    <li><NavLink to="UIB32">UIB 23</NavLink></li>
+                    <li><NavLink to="UIB33">UIB 24</NavLink></li>
+                    <li><NavLink to="UIB34">UIB 25</NavLink></li>
+                    <li><NavLink to="UIB35">UIB 26</NavLink></li>
                 </ul>
             </li>
             <li>
                 <a href="#pbSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Programing Basics</a>
                 <ul className="collapse list-unstyled" id="pbSubmenu">
-                    <li><a href="classes/36PB.html">PB 1</a></li>
-                    <li><a href="classes/37PB.html">PB 2</a></li>
-                    <li><a href="classes/38PB.html">PB 3</a></li>
-                    <li><a href="classes/39PB.html">PB 4</a></li>
-                    <li><a href="classes/40PB.html">PB 5</a></li>
-                    <li><a href="classes/41PB.html">PB 6</a></li>
-                    <li><a href="classes/42PB.html">PB 7</a></li>
-                    <li><a href="classes/43PB.html">PB 8</a></li>
-                    <li><a href="classes/44PB.html">PB 9</a></li>
-                    <li><a href="classes/45PB.html">PB 10</a></li>
-                    <li><a href="classes/46PB.html">PB 11</a></li>
-                    <li><a href="classes/47PB.html">PB 12</a></li>
-                    <li><a href="classes/48PB.html">PB 13</a></li>
-                    <li><a href="classes/49PB.html">PB 14</a></li>
-                    <li><a href="classes/50PB.html">PB 15</a></li>
-                    <li><a href="classes/51PB.html">PB 16</a></li>
-                    <li><a href="classes/52PB.html">PB 17</a></li>
-                    <li><a href="classes/53PB.html">PB 18</a></li>
-                    <li><a href="classes/54PB.html">PB 19</a></li>
-                    <li><a href="classes/55PB.html">PB 20</a></li>
-                    <li><a href="classes/56PB.html">PB 21</a></li>
-                    <li><a href="classes/57PB.html">PB 22</a></li>
-                    <li><a href="classes/58PB.html">PB 23</a></li>
+                    <li><NavLink to="PB36">PB 1</NavLink></li>
+                    <li><NavLink to="PB37">PB 2</NavLink></li>
+                    <li><NavLink to="PB38">PB 3</NavLink></li>
+                    <li><NavLink to="PB39">PB 4</NavLink></li>
+                    <li><NavLink to="PB40">PB 5</NavLink></li>
+                    <li><NavLink to="PB41">PB 6</NavLink></li>
+                    <li><NavLink to="PB42">PB 7</NavLink></li>
+                    <li><NavLink to="PB43">PB 8</NavLink></li>
+                    <li><NavLink to="PB44">PB 9</NavLink></li>
+                    <li><NavLink to="PB45">PB 10</NavLink></li>
+                    <li><NavLink to="PB46">PB 11</NavLink></li>
+                    <li><NavLink to="PB47">PB 12</NavLink></li>
+                    <li><NavLink to="PB48">PB 13</NavLink></li>
+                    <li><NavLink to="PB49">PB 14</NavLink></li>
+                    <li><NavLink to="PB50">PB 15</NavLink></li>
+                    <li><NavLink to="PB51">PB 16</NavLink></li>
+                    <li><NavLink to="PB52">PB 17</NavLink></li>
+                    <li><NavLink to="PB53">PB 18</NavLink></li>
+                    <li><NavLink to="PB54">PB 19</NavLink></li>
+                    <li><NavLink to="PB55">PB 20</NavLink></li>
+                    <li><NavLink to="PB56">PB 21</NavLink></li>
+                    <li><NavLink to="PB57">PB 22</NavLink></li>
+                    <li><NavLink to="PB58">PB 23</NavLink></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#spaSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Single Page Applications</a>
+                <ul className="collapse list-unstyled" id="spaSubmenu">
+                    <li><NavLink to="SPA59">SPA 1</NavLink></li>
+                    <li><NavLink to="SPA60">SPA 2</NavLink></li>
+                    <li><NavLink to="SPA61">SPA 3</NavLink></li>
+                    <li><NavLink to="SPA62">SPA 4</NavLink></li>
+                    <li><NavLink to="SPA63">SPA 5</NavLink></li>
+                    <li><NavLink to="SPA64">SPA 6</NavLink></li>
+                    <li><NavLink to="SPA65">SPA 7</NavLink></li>
+                    <li><NavLink to="SPA66">SPA 8</NavLink></li>
+                    <li><NavLink to="SPA67">SPA 9</NavLink></li>
+                    <li><NavLink to="SPA68">SPA 10</NavLink></li>
+                    <li><NavLink to="SPA69">SPA 11</NavLink></li>
+                    <li><NavLink to="SPA70">SPA 12</NavLink></li>
+                    <li><NavLink to="SPA71">SPA 13</NavLink></li>
+                    <li><NavLink to="SPA72">SPA 14</NavLink></li>
+                    <li><NavLink to="SPA73">SPA 15</NavLink></li>
+                    <li><NavLink to="SPA74">SPA 16</NavLink></li>
+                    <li><NavLink to="SPA75">SPA 17</NavLink></li>
+                    <li><NavLink to="SPA76">SPA 18</NavLink></li>
+                    <li><NavLink to="SPA77">SPA 19</NavLink></li>
+                    <li><NavLink to="SPA78">SPA 20</NavLink></li>
+                    <li><NavLink to="SPA79">SPA 21</NavLink></li>
+                    <li><NavLink to="SPA80">SPA 22</NavLink></li>
+                    <li><NavLink to="SPA81">SPA 23</NavLink></li>
                 </ul>
             </li>
             <li>

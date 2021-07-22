@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/wd21-classes-react/static/css/main.c90a7bdb.chunk.css",
-    "main.js": "/wd21-classes-react/static/js/main.2dd469de.chunk.js",
-    "main.js.map": "/wd21-classes-react/static/js/main.2dd469de.chunk.js.map",
+    "main.js": "/wd21-classes-react/static/js/main.1eea5316.chunk.js",
+    "main.js.map": "/wd21-classes-react/static/js/main.1eea5316.chunk.js.map",
     "runtime-main.js": "/wd21-classes-react/static/js/runtime-main.5e415f9e.js",
     "runtime-main.js.map": "/wd21-classes-react/static/js/runtime-main.5e415f9e.js.map",
-    "static/js/2.b1c5f952.chunk.js": "/wd21-classes-react/static/js/2.b1c5f952.chunk.js",
-    "static/js/2.b1c5f952.chunk.js.map": "/wd21-classes-react/static/js/2.b1c5f952.chunk.js.map",
+    "static/js/2.6598b766.chunk.js": "/wd21-classes-react/static/js/2.6598b766.chunk.js",
+    "static/js/2.6598b766.chunk.js.map": "/wd21-classes-react/static/js/2.6598b766.chunk.js.map",
     "index.html": "/wd21-classes-react/index.html",
     "static/css/main.c90a7bdb.chunk.css.map": "/wd21-classes-react/static/css/main.c90a7bdb.chunk.css.map",
-    "static/js/2.b1c5f952.chunk.js.LICENSE.txt": "/wd21-classes-react/static/js/2.b1c5f952.chunk.js.LICENSE.txt",
+    "static/js/2.6598b766.chunk.js.LICENSE.txt": "/wd21-classes-react/static/js/2.6598b766.chunk.js.LICENSE.txt",
     "static/media/home.1037ec9d.svg": "/wd21-classes-react/static/media/home.1037ec9d.svg",
     "static/media/linda1.3aad0622.jpg": "/wd21-classes-react/static/media/linda1.3aad0622.jpg",
     "static/media/linda2.80f4369e.jpg": "/wd21-classes-react/static/media/linda2.80f4369e.jpg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5e415f9e.js",
-    "static/js/2.b1c5f952.chunk.js",
+    "static/js/2.6598b766.chunk.js",
     "static/css/main.c90a7bdb.chunk.css",
-    "static/js/main.2dd469de.chunk.js"
+    "static/js/main.1eea5316.chunk.js"
   ]
 }

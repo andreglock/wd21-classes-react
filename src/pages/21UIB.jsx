@@ -1,5 +1,5 @@
 const ReactMarkdown = require('react-markdown');
- const gfm = require('remark-gfm');
+const gfm = require('remark-gfm');
 
 export default function UIB21() {
 return <div id='content'><ReactMarkdown remarkPlugins={[gfm]} children={markdown} /></div>

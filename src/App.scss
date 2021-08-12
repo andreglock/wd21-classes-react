@@ -244,10 +244,10 @@ div.indexContent h2 {
 
 a {
   text-decoration: underline;
-  color: white;
 }
 
-a.block {
+.indexContent {
+  a.block {
   background-color: #333;
   display: block;
   color: white;
@@ -256,6 +256,11 @@ a.block {
   margin-top: 8px;
   font-size: 1.35em;
   text-transform: uppercase;
+  }
+  a:hover {
+    background-color: white;
+    color: black;
+  }
 }
 
 main {
@@ -284,7 +289,7 @@ main>div {
   }
 
   a:hover {
-      background-color: white;
+      background-color: #ddd;
       color: black;
   }
 

@@ -107,6 +107,8 @@ export default function Navigation() {
                     <li><NavLink to="SPA79">SPA 21</NavLink></li>
                     <li><NavLink to="SPA80">SPA 22</NavLink></li>
                     <li><NavLink to="SPA81">SPA 23</NavLink></li>
+                    <li><NavLink to="SPA82">SPA 24</NavLink></li>
+                    <li><NavLink to="SPA83">SPA 25</NavLink></li>
                 </ul>
             </li>
             <li>

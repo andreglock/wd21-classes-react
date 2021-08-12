@@ -2,7 +2,7 @@ import os
 
 foot = '`'
 
-for i in range (59, 82):
+for i in range (82, 84):
     head = "const ReactMarkdown = require('react-markdown');\n const gfm = require('remark-gfm');\n\nexport default function UIB" + str(i) + "() {\nreturn <div id='content'><ReactMarkdown remarkPlugins={[gfm]} children={markdown} /></div>\n}\nconst markdown = `\n"
     print(str('%02d' % (i)) + 'SPA.md is input', end = '    ')
     # Add Head

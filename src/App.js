@@ -28,7 +28,8 @@ import SPA68 from './pages/68SPA'; import SPA69 from './pages/69SPA'; import SPA
 import SPA71 from './pages/71SPA'; import SPA72 from './pages/72SPA'; import SPA73 from './pages/73SPA';
 import SPA74 from './pages/74SPA'; import SPA75 from './pages/75SPA'; import SPA76 from './pages/76SPA';
 import SPA77 from './pages/77SPA'; import SPA78 from './pages/78SPA'; import SPA79 from './pages/79SPA';
-import SPA80 from './pages/80SPA'; import SPA81 from './pages/81SPA';
+import SPA80 from './pages/80SPA'; import SPA81 from './pages/81SPA'; import SPA82 from './pages/82SPA'; 
+import SPA83 from './pages/83SPA';
 
 function App() {
   return ( <div className="wrapper">
@@ -123,6 +124,8 @@ function App() {
       <Route path='/SPA79' component={SPA79} />
       <Route path='/SPA80' component={SPA80} />
       <Route path='/SPA81' component={SPA81} />
+      <Route path='/SPA82' component={SPA82} />
+      <Route path='/SPA83' component={SPA83} />
       <Route path='*'>
         <Redirect to="/" />
       </Route>

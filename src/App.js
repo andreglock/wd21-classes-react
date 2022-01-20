@@ -29,7 +29,15 @@ import SPA71 from './pages/71SPA'; import SPA72 from './pages/72SPA'; import SPA
 import SPA74 from './pages/74SPA'; import SPA75 from './pages/75SPA'; import SPA76 from './pages/76SPA';
 import SPA77 from './pages/77SPA'; import SPA78 from './pages/78SPA'; import SPA79 from './pages/79SPA';
 import SPA80 from './pages/80SPA'; import SPA81 from './pages/81SPA'; import SPA82 from './pages/82SPA'; 
-import SPA83 from './pages/83SPA';
+import SPA83 from './pages/83SPA'; import SPA84 from './pages/84SPA'; import BCK900 from './pages/900BCK';
+import BCK901 from './pages/901BCK'; import BCK902 from './pages/902BCK'; import BCK903 from './pages/903BCK';
+import BCK904 from './pages/904BCK'; import BCK905 from './pages/905BCK'; import BCK906 from './pages/906BCK';
+import BCK907 from './pages/907BCK'; import BCK908 from './pages/908BCK'; import BCK909 from './pages/909BCK';
+import BCK910 from './pages/910BCK'; import BCK911 from './pages/911BCK'; import BCK912 from './pages/912BCK';
+import BCK913 from './pages/913BCK'; import BCK914 from './pages/914BCK'; import BCK915 from './pages/915BCK';
+import BCK916 from './pages/916BCK'; import BCK917 from './pages/917BCK'; import BCK918 from './pages/918BCK';
+import BCK919 from './pages/919BCK'; import BCK920 from './pages/920BCK'; import BCK921 from './pages/921BCK';
+import BCK922 from './pages/922BCK'; import BCK923 from './pages/923BCK';
 
 function App() {
   return ( <div className="wrapper">
@@ -126,6 +134,31 @@ function App() {
       <Route path='/SPA81' component={SPA81} />
       <Route path='/SPA82' component={SPA82} />
       <Route path='/SPA83' component={SPA83} />
+      <Route path='/SPA84' component={SPA84} />
+      <Route path='/BCK900' component={BCK900} />
+      <Route path='/BCK901' component={BCK901} />
+      <Route path='/BCK902' component={BCK902} />
+      <Route path='/BCK903' component={BCK903} />
+      <Route path='/BCK904' component={BCK904} />
+      <Route path='/BCK905' component={BCK905} />
+      <Route path='/BCK906' component={BCK906} />
+      <Route path='/BCK907' component={BCK907} />
+      <Route path='/BCK908' component={BCK908} />
+      <Route path='/BCK909' component={BCK909} />
+      <Route path='/BCK910' component={BCK910} />
+      <Route path='/BCK911' component={BCK911} />
+      <Route path='/BCK912' component={BCK912} />
+      <Route path='/BCK913' component={BCK913} />
+      <Route path='/BCK914' component={BCK914} />
+      <Route path='/BCK915' component={BCK915} />
+      <Route path='/BCK916' component={BCK916} />
+      <Route path='/BCK917' component={BCK917} />
+      <Route path='/BCK918' component={BCK918} />
+      <Route path='/BCK919' component={BCK919} />
+      <Route path='/BCK920' component={BCK920} />
+      <Route path='/BCK921' component={BCK921} />
+      <Route path='/BCK922' component={BCK922} />
+      <Route path='/BCK923' component={BCK923} />
       <Route path='*'>
         <Redirect to="/" />
       </Route>

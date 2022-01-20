@@ -11,8 +11,8 @@ for i in range (2, 10):
     output = 'stage.html',
     encoding = 'utf8',
     )
-    with open('stage.html', 'r') as original: data = original.read()
-    with open('0' + str(i) + 'BDL.jsx', 'w') as modified: modified.write(head + data + foot)
+    with open('stage.html', 'r', encoding='utf-8') as original: data = original.read()
+    with open('0' + str(i) + 'BDL.jsx', 'w', encoding='utf-8') as modified: modified.write(head + data + foot)
     print('0' + str(i) + 'BDL.jsx' + ' made')
 
 os.remove('stage.html')

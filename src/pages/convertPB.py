@@ -8,12 +8,12 @@ for i in range (36, 59):
     # Add Head
     data = head
     # Loop char by char and add "\" before every "`"
-    with open(str(i) + 'PB.md', 'r') as original:
+    with open(str(i) + 'PB.md', 'r', encoding='utf-8') as original:
         for line in original:  
             for ch in line:
                 if ch == '`':
                     data = data + '\\' + ch
                 else:
                     data = data + ch
-    with open(str(i) + 'PB.jsx', 'w') as modified: modified.write(data + foot)
+    with open(str(i) + 'PB.jsx', 'w', encoding='utf-8') as modified: modified.write(data + foot)
     print(str(i) + 'PB.jsx' + ' made')

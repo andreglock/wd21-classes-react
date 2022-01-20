@@ -16,7 +16,7 @@ The \`useReducer\` is inspired by Redux; it's an complete alternative to \`useSt
 
 Code along with me for this example. We will use create-react-app;
 
-    \$ npx create-react-app spa-store-usereducer
+    \$npx create-react-app spa-store-usereducer
 
 Result: silly useReducer math game https://github.com/FbW-E01/SPA-Store-UseReducer
 `
